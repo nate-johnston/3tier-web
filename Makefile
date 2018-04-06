@@ -1,7 +1,7 @@
 NAME=3tier-web
-VERSION=1.0.1
+VERSION=1.0.2
 REVISION=0
-PREFIX=/usr/share/nginx/html
+PREFIX=/app/threetier-web
 TARGET_DIR=.
 PACKAGE=$(NAME)_$(VERSION)-$(REVISION)_amd64.deb
 POSTINSTALL=postinstall.sh

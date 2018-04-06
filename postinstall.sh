@@ -2,7 +2,7 @@ echo "Check out /etc/nginx"
 find /etc/nginx
 echo
 echo "Copy configuration into place"
-/bin/cp -v /app/threetier-web/threetier.conf /etc/nginx/conf.d/threetier.conf
+/bin/cp -v /app/threetier-web/threetier.conf /etc/nginx/sites-enabled/default
 echo "Systemctl: enabling nginx"
 /bin/systemctl enable nginx.service
 echo "Systemctl: starting nginx"

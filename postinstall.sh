@@ -1,3 +1,4 @@
+/bin/mv -v /usr/share/nginx/html/main.html /usr/share/nginx/html/index.html
 echo "Systemctl: enabling nginx"
 /bin/systemctl enable nginx.service
 echo "Systemctl: starting nginx"

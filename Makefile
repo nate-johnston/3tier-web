@@ -1,5 +1,5 @@
 NAME=3tier-web
-VERSION=1.0.0
+VERSION=1.0.1
 REVISION=0
 PREFIX=/usr/share/nginx/html
 TARGET_DIR=.

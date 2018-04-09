@@ -6,9 +6,17 @@
     	<script src="hello.js"></script>
 	</head>
 
-	<body>
+	<body bgcolor=#aaaaff>
+        This is data for the "Three Tier Application" demonstration.  This is
+        intended to show an application that has web, application, and database
+        phases under management by Spinnaker.
+
 		<div ng-controller="Hello">
-            <table>
+            <table border=1 cellspacing=0>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
                 <tr ng-repeat="x in greeting">
                     <td>{{ x.id }}</td>
                     <td>{{ x.name }}</td>
